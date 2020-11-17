@@ -11,7 +11,8 @@ const insecurity = require('../lib/insecurity')
 module.exports = function productReviews () {
   return (req, res, next) => {
     const user = insecurity.authenticatedUsers.from(req)
-    utils.solveIf(challenges.forgedReviewChallenge, () => { return user && user.data.email !== req.body.author })
+		utils.solveIf(challenges.forgedReviewChallenge, () => { return user && user.data.email !== req.body.author })
+		if (user && user.data.email !== req.body.author) return;
     db.reviews.insert({
       product: req.params.id,
       message: req.body.message,

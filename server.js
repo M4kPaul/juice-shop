@@ -12,7 +12,7 @@ const express = require('express')
 const compression = require('compression')
 const helmet = require('helmet')
 const featurePolicy = require('feature-policy')
-const errorhandler = require('errorhandler')
+//const errorhandler = require('errorhandler')
 const cookieParser = require('cookie-parser')
 const serveIndex = require('serve-index')
 const bodyParser = require('body-parser')
@@ -145,7 +145,7 @@ const uploadToDisk = multer({
   })
 })
 
-errorhandler.title = `${config.get('application.name')} (Express ${utils.version('express')})`
+//errorhandler.title = `${config.get('application.name')} (Express ${utils.version('express')})`
 
 /* Locals */
 app.locals.captchaId = 0
@@ -570,8 +570,8 @@ app.post('/profile', updateUserProfile())
 app.use(angular())
 
 /* Error Handling */
-app.use(verify.errorHandlingChallenge())
-app.use(errorhandler())
+//app.use(verify.errorHandlingChallenge())
+//app.use(errorhandler())
 
 exports.start = async function (readyCallback) {
   const datacreatorEnd = startupGauge.startTimer({ task: 'datacreator' })

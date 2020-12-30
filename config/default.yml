@@ -92,6 +92,7 @@ products:
     image: apple_juice.jpg
     reviews:
       - { text: 'One of my favorites!', author: admin }
+      - { text: 'Woppss forgot to add this review earlier!', author: kilroy }
   -
     name: 'Orange Juice (1000ml)'
     description: 'Made from oranges hand-picked by Uncle Dittmeyer.'

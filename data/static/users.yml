@@ -241,3 +241,76 @@
   password: 'y&x5Z#f6W532ZUf$q3DsdgfgfgxxUsvoCUaDzFU'
   key: emma
   role: 'customer'
+
+-
+  email: bach
+  password: 'HU(#U@Nf923f'
+  key: bach
+  role: 'admin'
+  securityQuestion:
+    id: 1
+    answer: 'ihgi43ughi3u54h03982'
+  feedback:
+    comment: '2/10 nie polecam'
+    rating: 1
+  address:
+    - fullName: 'Bartek Chaber'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: 'Koszykowa 75'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja złota karta'
+      cardNum: 4716943969046208
+      expMonth: 2
+      expYear: 2081
+-
+  email: adm1n
+  password: 'gYlVO4Bi6gYF0wBv'
+  key: adm1n
+  role: 'admin'
+  securityQuestion:
+    id: 1
+    answer: 'rP54KwG4PrRMB2VP'
+  feedback:
+    comment: 'Borked system polecam'
+    rating: 1
+  address:
+    - fullName: 'Pan Admin'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: 'Koszykowa 75'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja złota karta'
+      cardNum: 4716943969046208
+      expMonth: 2
+      expYear: 2081
+-
+  email: kilroy
+  password: '1E5rW0ZkcG5DcI2g'
+  key: kilroy
+  role: 'customer'
+  securityQuestion:
+    id: 2
+    answer: 'yeC6fhFwYawsv5Wa'
+  feedback:
+    comment: 'Kilroy was here'
+    rating: 5
+  address:
+    - fullName: 'Kilroy Yorlik'
+      mobileNum: 1234567890
+      zipCode: '0000'
+      streetAddress: 'Koszykowa 75'
+      city: 'Warsaw'
+      state: 'Mazovian'
+      country: 'Poland'
+  card:
+    - fullName: 'Moja molibdenowa karta'
+      cardNum: 4716943969046208
+      expMonth: 2
+      expYear: 2081
